@@ -73,17 +73,23 @@ p {
   color: #E1E1E6;
 }
 
-button {
+#box-home a {
   padding: 1.2rem 3.2rem;
   gap: 8px;
   border-radius: 5px;
   border: 2px solid #FFFFFF;
+  text-decoration: none;
 
   color: #FFFFFF;
   background-color: transparent;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
 }
 
-button:hover {
+#box-home a:hover {
   padding: 1.2rem 3.2rem;
   gap: 8px;
   border-radius: 5px;
@@ -105,8 +111,6 @@ button:hover {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  top: 0;
-  z-index: -5;
 }
 
 #box-home h1 {
@@ -120,8 +124,6 @@ button:hover {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  top: 0;
-  z-index: -5;
 }
 
 #box-exploration {
@@ -130,6 +132,4 @@ button:hover {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  top: 0;
-  z-index: -5;
 }
