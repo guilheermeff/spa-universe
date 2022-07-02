@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 10px */
+}
+
+#menu-nav-bar {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+
+  position: absolute;
+  top: 4.0rem;
+  left: 7.2rem;
+}
+
+ul li a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.16rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+
+  text-decoration: none;
+
+  color: #FFFFFF;
+}
+
+ul li a svg {
+  width: 4.9rem;
+  height: 4.2rem;
+}
+
+ul li a:hover {
+  font-size: 2.4rem;
+  font-weight: 700;
+
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 6.8rem;
+
+  position: absolute;
+  top: 18.5rem;
+  left: 10.2rem;
+  width: 23.6rem;
+
+  color: #E1E1E6;
+  
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  line-height: 160%;
+
+  position: absolute;
+  top: 26.1rem;
+  left: 10.2rem;
+  width: 64.8rem;
+
+  color: #E1E1E6;
+}
+
+button {
+  padding: 1.2rem 3.2rem;
+  gap: 8px;
+  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+button:hover {
+  padding: 1.2rem 3.2rem;
+  gap: 8px;
+  border-radius: 5px;
+  border: 2px solid #FFFFFF;
+
+  color: #02799D;
+  background-color: #FFFFFF;
+}
+
+#box-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+
+  background-image: url(../images/mountains-universe-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: -5;
+}
+
+#box-home h1 {
+  position: static;
+  width: 40.0rem;
+}
+
+#box-universe {
+  background-image: url(../images/mountains-universe02.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: -5;
+}
+
+#box-exploration {
+  background-image: url(../images/mountains-universe-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: -5;
+}
